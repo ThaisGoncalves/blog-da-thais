@@ -30,7 +30,7 @@ public class Postagem {
 	
 	@Temporal(TemporalType.TIMESTAMP)
 	private Date data = new java.sql.Date(System.currentTimeMillis());
-
+	
 	public int getId() {
 		return id;
 	}
